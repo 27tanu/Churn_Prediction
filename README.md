@@ -41,19 +41,26 @@ Load and examine the dataset for structure and missing values.
 2.Exploratory Data Analysis (EDA)
 
 3.Use visualizations to understand data distribution and correlations.
+
+
 4.Highlight churn-related patterns.
+
 5.Data Preprocessing
 
 6.Encode categorical features using LabelEncoder.
+
 7.Scale numerical features using StandardScaler.
+
 8.Model Training
 
 9.Split the data into training and testing sets (80:20).
+
 10.Train a Random Forest Classifier to predict churn.
+
 11.Model Evaluation
 
 Evaluate the model using metrics like accuracy, precision, recall, and F1-score.
 Plot feature importance for business insights.
 Deployment
 
-Create a Streamlit web application for real-time churn prediction.
+12.Create a Streamlit web application for real-time churn prediction.
