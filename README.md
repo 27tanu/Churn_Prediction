@@ -1,15 +1,18 @@
 # Churn_Prediction
 
 
-Overview
+A. Overview
+
 Customer churn prediction is a vital aspect of retaining customers in subscription-based businesses such as telecom, SaaS, and banking. This project aims to predict whether a customer will churn based on their demographic, behavioral, and account-related features. By identifying customers at risk of leaving, businesses can take proactive measures to enhance customer satisfaction and retention.
 
-Objectives
+B. Objectives
+
 To analyze customer data and identify patterns leading to churn.
 To build a machine learning model that accurately predicts customer churn.
 To evaluate feature importance for better business insights.
-To deploy an interactive tool for predicting churn using new customer data.
-Features
+
+C. Process
+
 Exploratory Data Analysis (EDA)
 
 Insights into customer demographics, account features, and churn patterns.
@@ -31,22 +34,23 @@ A Streamlit-based web app for interactive churn prediction.
 
 
 Project Workflow
-Data Collection
+
+1.Data Collection
 Load and examine the dataset for structure and missing values.
 
-Exploratory Data Analysis (EDA)
+2.Exploratory Data Analysis (EDA)
 
-Use visualizations to understand data distribution and correlations.
-Highlight churn-related patterns.
-Data Preprocessing
+3.Use visualizations to understand data distribution and correlations.
+4.Highlight churn-related patterns.
+5.Data Preprocessing
 
-Encode categorical features using LabelEncoder.
-Scale numerical features using StandardScaler.
-Model Training
+6.Encode categorical features using LabelEncoder.
+7.Scale numerical features using StandardScaler.
+8.Model Training
 
-Split the data into training and testing sets (80:20).
-Train a Random Forest Classifier to predict churn.
-Model Evaluation
+9.Split the data into training and testing sets (80:20).
+10.Train a Random Forest Classifier to predict churn.
+11.Model Evaluation
 
 Evaluate the model using metrics like accuracy, precision, recall, and F1-score.
 Plot feature importance for business insights.
